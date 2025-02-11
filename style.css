@@ -1,0 +1,115 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    background-color:hsl(30, 38%, 92%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+
+  .container {
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    overflow: hidden;  
+    width: 80%;
+  
+  }
+  
+  .container-picture{
+
+    width: 23%;
+    
+  }
+
+.image {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+  }
+  
+  
+  .container-text {
+    background-color:hsl(0, 0%, 100%);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    width: 17%;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+  
+  
+  .perfume-name {
+    color: hsl(228, 12%, 48%); 
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: bold;
+  }
+  
+ 
+  .perfum-description h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%); 
+    margin: 0;
+  }
+  
+  
+  .detail {
+    font-size: 14px;
+    line-height: 1.6;
+    color: hsl(228, 12%, 48%); 
+    margin: 0;
+  }
+
+  .price {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+ 
+
+  
+  .price .current {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: hsl(158, 36%, 37%); 
+    font-family:'Fraunces', serif;
+  }
+  
+  .price .original {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+  }
+  
+ 
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  button:hover {
+    background-color: hsl(212, 21%, 14%); 
+  }
+  
