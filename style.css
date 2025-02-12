@@ -13,16 +13,16 @@ body {
 
   .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     border-radius: 12px;
     overflow: hidden;  
-    width: 80%;
-  
+    width: 75%;
   }
   
   .container-picture{
 
-    width: 23%;
+    width: 100%;
     
   }
 
@@ -36,14 +36,11 @@ body {
   
   .container-text {
     background-color:hsl(0, 0%, 100%);
-    padding: 25px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-content: center;
-    width: 17%;
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
+    justify-content: center;
+    gap: 20px
   }
   
   
@@ -57,7 +54,7 @@ body {
  
   .perfum-description h1 {
     font-family: 'Fraunces', serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 700;
     color: hsl(212, 21%, 14%); 
     margin: 0;
@@ -65,7 +62,7 @@ body {
   
   
   .detail {
-    font-size: 14px;
+    font-size: 0.9rem;
     line-height: 1.6;
     color: hsl(228, 12%, 48%); 
     margin: 0;
@@ -106,6 +103,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap:10px;
     
   }
   
